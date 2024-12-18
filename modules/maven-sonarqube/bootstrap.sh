@@ -10,7 +10,7 @@ sudo yum install openjdk-11-jre -y
 #create sonar-user
 sudo adduser sonar
 sudo passwd sonar <<EOF
-foncha
+fon@123
 EOF
 sudo echo "sonar ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/sonar
 #Enable PasswordAuthentication in the server
